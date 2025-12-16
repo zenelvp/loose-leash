@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function FutureVisionSection() {
   return (
     <section className="space-y-12">
@@ -141,12 +143,12 @@ export default function FutureVisionSection() {
               behaviors.
             </p>
 
-            <a
-              href="#pricing"
+            <Link
+              href="https://whop.com/checkout/6cgnKv3wP3P6YzMBlD-ZryI-6qkd-2RbL-20VKX54YTH6d/"
               className="inline-block bg-amber-600 hover:bg-amber-700 text-white text-xl font-bold px-12 py-5 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
             >
               Start My Transformation Today
-            </a>
+            </Link>
           </div>
         </div>
 

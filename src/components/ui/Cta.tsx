@@ -1,4 +1,5 @@
 import { Clock3, Heart, ShieldCheck } from "lucide-react";
+import Link from "next/link";
 
 export default function Cta() {
   return (
@@ -19,9 +20,14 @@ export default function Cta() {
             relationship forever?
           </p>
 
-          <button className="mt-10 bg-white text-theme font-semibold py-4 px-10 rounded-full hover:bg-gray-100 transition text-lg shadow-md">
-            Start My 30-Day Transformation – $147
-          </button>
+          <Link
+            href="https://whop.com/checkout/6cgnKv3wP3P6YzMBlD-ZryI-6qkd-2RbL-20VKX54YTH6d/"
+            className="cursor-pointer"
+          >
+            <button className="mt-10 bg-white text-theme font-semibold py-4 px-10 rounded-full hover:bg-gray-100 transition text-lg shadow-md cursor-pointer">
+              Start My 30-Day Transformation – $147
+            </button>
+          </Link>
 
           <div className="flex items-center justify-center gap-10 mt-6 text-sm opacity-90">
             <span className="flex items-center gap-2 text-white">

@@ -140,7 +140,10 @@ export default function ThankYouPage() {
 
         {/* BUTTON #1 */}
         <div className="text-center mb-8">
-          <Button label="Cul-de-Sac Calm — 30-Day Neighbor’s Dog Lunge Fix (Video Course) — $247" />
+          <Button
+            href="https://whop.com/checkout/1RbXQdDM5BrRKP7lrH-qn6n-NxuH-6VTG-XlrRryO3QyKn/"
+            label="Cul-de-Sac Calm — 30-Day Neighbor’s Dog Lunge Fix (Video Course) — $247"
+          />
         </div>
 
         {/* Already Have / Unlock */}
@@ -187,7 +190,10 @@ export default function ThankYouPage() {
 
         {/* BUTTON #2 */}
         <div className="text-center pb-8">
-          <Button label="YES — Upgrade My Training & Get the Free Bonus" />
+          <Button
+            href="https://whop.com/checkout/1RbXQdDM5BrRKP7lrH-qn6n-NxuH-6VTG-XlrRryO3QyKn/"
+            label="YES — Upgrade My Training & Get the Free Bonus"
+          />
         </div>
       </div>
 
@@ -196,8 +202,7 @@ export default function ThankYouPage() {
         className="mt-16 text-center text-sm"
         style={{ color: "var(--color-desc)" }}
       >
-        &copy; {new Date().getFullYear()} Loose Leash. All rights
-        reserved.
+        &copy; {new Date().getFullYear()} Loose Leash. All rights reserved.
       </footer>
     </div>
   );

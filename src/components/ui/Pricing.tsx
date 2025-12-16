@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import Button from "../button/Button";
 import FutureVisionSection from "./FutureVisionSection";
 import GuaranteeSection from "./GuaranteeSection";
@@ -98,9 +99,11 @@ export default function Pricing() {
               <h4 className="text-body">${discountedPrice}</h4>
             </div>
 
-            <button className="mt-6 bg-body py-5 px-6 font-bold rounded-3xl text-title">
-              SECURE MY TRAINING PROGRAM NOW
-            </button>
+            <Link href="https://whop.com/checkout/6cgnKv3wP3P6YzMBlD-ZryI-6qkd-2RbL-20VKX54YTH6d/">
+              <button className="mt-6 bg-body py-5 px-6 font-bold rounded-3xl text-title">
+                SECURE MY TRAINING PROGRAM NOW
+              </button>
+            </Link>
           </div>
 
           {/* RIGHT SIDE */}
@@ -128,7 +131,7 @@ export default function Pricing() {
                 <li key={i}>{item}</li>
               ))}
             </ul>
-            <Button label="YES! Give Me Calm Walks in 30 Days" />
+            <Button href="https://whop.com/checkout/6cgnKv3wP3P6YzMBlD-ZryI-6qkd-2RbL-20VKX54YTH6d/" label="YES! Give Me Calm Walks in 30 Days" />
             <p>Secure checkout - Your information is protected</p>
           </div>
         </div>

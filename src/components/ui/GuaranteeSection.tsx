@@ -95,7 +95,7 @@ export default function GuaranteeSection() {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <Button label="SECURE MY TRAINING PROGRAM NOW" />
+          <Button href="https://whop.com/checkout/6cgnKv3wP3P6YzMBlD-ZryI-6qkd-2RbL-20VKX54YTH6d/" label="SECURE MY TRAINING PROGRAM NOW" />
           <p className="mt-4 text-gray-500 text-sm">
             Instant Lifetime Access — Fully Risk Free
           </p>

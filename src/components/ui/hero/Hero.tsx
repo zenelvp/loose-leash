@@ -79,6 +79,7 @@ export default function Hero() {
 
         <div className="flex items-center justify-center flex-col">
           <Button
+            href="https://whop.com/checkout/6cgnKv3wP3P6YzMBlD-ZryI-6qkd-2RbL-20VKX54YTH6d/"
             label="Yes, Let’s Fix My Dog’s Pulling"
             className="mt-12 px-6 py-3 text-sm sm:text-base md:text-lg"
           />
