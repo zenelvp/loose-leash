@@ -18,7 +18,7 @@ export default function Button({
   disabled = false,
 }: ButtonProps) {
   const baseClasses =
-    "text-sm sm:text-base inline-flex items-center justify-center px-6 py-3 font-semibold rounded-full bg-theme text-body transition-all duration-300 hover:opacity-90 disabled:opacity-50 disabled:pointer-events-none";
+    "text-sm sm:text-base inline-flex items-center justify-center px-6 py-3 font-semibold rounded-full bg-theme text-body transition-all duration-300 hover:opacity-90 disabled:opacity-50 disabled:pointer-events-none text-center";
 
   if (href && !disabled) {
     return (
